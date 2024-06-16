@@ -1,8 +1,0 @@
-<input type="text" placeholder="enter first number">
-    <br>
-    <br>
-    <input type="text" placeholder="enter second number">
-    <br>
-    <br>
-    <button onclick="CalculateSum()">Calculate sum</button>
-    <script src="script.js"></script>
