@@ -1,3 +1,12 @@
+ // debouncing concept
+let timeout;
+function DebbugingCalculate(){
+    clearTimeout(timeout);
+    timeout = setTimeout(()=>{
+        CalculateSI();
+    },1000);
+}
+
 function CalculateSI(){
     let p = document.getElementById("p").value;
     let r = document.getElementById("r").value;
@@ -9,3 +18,7 @@ function CalculateSI(){
     })
 
 }
+
+// by dafault fetch gave get request , if you want to specially define then you define methoud.{
+    method : post
+//}
